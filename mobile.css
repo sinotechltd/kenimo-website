@@ -1,0 +1,147 @@
+/* Reset default margin and padding */
+*{
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a fluid width to the main container */
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+  }
+  
+  /* Set a responsive font size */
+  body {
+    font-size: 16px;
+  }
+
+  /* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a fluid width to the main container */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+}
+
+/* Set a responsive font size */
+body {
+  font-size: 16px;
+}
+
+/* Define media queries for different screen sizes */
+@media (max-width: 767px) {
+  /* Styles for small screens (up to 767px) */
+  body {
+    font-size: 14px;
+  }
+
+  /* Adjust text wrapping */
+  .container {
+    word-wrap: break-word;
+  }
+
+  /* Adjust font size and line height for headings */
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  /* Adjust font size and line height for paragraphs */
+  p {
+    line-height: 1.6;
+  }
+
+  /* Adjust font size and spacing for specific elements */
+  .element {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for medium screens (768px to 1023px) */
+  body {
+    font-size: 16px;
+  }
+
+  /* Adjust text wrapping */
+  .container {
+    word-wrap: break-word;
+  }
+
+  /* Adjust font size and line height for headings if necessary */
+  h1 {
+    /* Adjust as needed */
+  }
+
+  /* Adjust font size and line height for paragraphs if necessary */
+  p {
+    /* Adjust as needed */
+  }
+
+  /* Adjust font size and spacing for specific elements if necessary */
+  .element {
+    /* Adjust as needed */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for large screens (1024px and above) */
+  body {
+    font-size: 18px;
+  }
+
+  /* Adjust text wrapping */
+  .container {
+    word-wrap: break-word;
+  }
+
+  /* Adjust font size and line height for headings if necessary */
+  h1 {
+    /* Adjust as needed */
+  }
+
+  /* Adjust font size and line height for paragraphs if necessary */
+  p {
+    /* Adjust as needed */
+  }
+
+  /* Adjust font size and spacing for specific elements if necessary */
+  .element {
+    /* Adjust as needed */
+  }
+}
+
+  
+  /* Define media queries for different screen sizes */
+  @media (max-width: 767px) {
+    /* Styles for small screens (up to 767px) */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium screens (768px to 1023px) */
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* Styles for large screens (1024px and above) */
+    body {
+      font-size: 18px;
+    }
+  }
+}
