@@ -6,7 +6,7 @@
     margin: 0
   }
   .parent:first-of-type {
-    background: #ffffff url("imAGES/text\ fill\ 2.jpg") no-repeat center center fixed;
+    background: #ffffff url("images/textfill2.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(2) {
@@ -14,7 +14,7 @@
     background-size: cover;
   }
   .parent:nth-of-type(3) {
-    background: #ffffff url("imAGES/text\ fill\ 2.jpg") no-repeat center center fixed;
+    background: #ffffff url("images/textfill2.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(4) {
