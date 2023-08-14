@@ -26,7 +26,7 @@
 }
 /* navbar styling */
 nav{
-  position:;
+  /* position:; */
   width: 100%;
   padding: 20px 0;
   z-index: 998;
@@ -336,40 +336,6 @@ section .button button:hover{
   margin: 0 6px;
 }
 .skills-details .boxes{
- <canvas id="myChart" width="" height=""></canvas>
- <script>
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var chart = new Chart(ctx, {
-    type: 'line',
- 
-    data: {
-      labels: ,
-      datasets: [{
-        label: "My Chart",
-        data: ,
-        backgroundColor: ,
-        borderColor: ,
-        borderWidth: 
-      }]
-    },
- 
-    options: {
-      title: {
-        text: "My Chart",
-        display: true,
-      },
-      events: [],
-      legend: {
-        display: true,
-      },
-      tooltips: {
-        mode: ''
-      },
-      layout: {},
-      animation: {}
-    }
-  });
- </script>
   justify-content: space-between;
 }
 .skills-details .box{
@@ -411,7 +377,8 @@ section .button button:hover{
   padding: 30px 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
-  transition animation-duration: 0.4s;
+  transition:cubic-bezier(1, 0, 0, 1);
+  animation-duration: 0.4s;
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
